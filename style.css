@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     padding: 0px;
     margin: 0px;
+    background-color: white;
 }
 
 
@@ -12,13 +13,17 @@ body {
     justify-content: space-between;
     flex-direction: column;
     background-color: #1F2937;
-    margin-left: ;
+    padding-bottom: 20px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     color: #F9FAF8;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+  padding-right: 10px;
 }
 
 .headerlinks {
@@ -46,8 +51,8 @@ a {
     display: flex;
     justify-content: center;
     padding-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   .headerbottom {
@@ -79,18 +84,19 @@ a {
   }
 
   .heromaintext {
-    font-size: 48px;
+    font-size: 36px;
     font-weight:bolder;
     color: #F9FAF8;
   }
 
   button {
-    width: 100px;
+    width: 150px;
+    height: 40px;
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 20px;
+    color: white;
   }
-
 
 
 
@@ -99,21 +105,123 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 400PX;
+    padding-top: 20px;
+    margin-top: 20px;
   }
 
   .randominformation {
     font-size: 36px;
     font-weight: bolder;
     font: #1F2937;
+    padding: 30px;
   }
 
   .informationboxes {
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
 
   .boxes {
     display: flex;
     flex-direction: column;
+    min-height: 300px;
   }
+  
+  .imagebox {
+    display: flex;
+    border: 2px solid blue;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
   }
 
+  .text {
+    text-align: center;
+  }
+
+.quotecon {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    max-width: 550px;
+    align-self: center;
+    background-color: #E5E7EB;
+  }
+
+.toptext {
+  display: flex;
+  font-size: 28px;
+  font-style: italic;
+  color: #1F2937;
+
+}
+
+.signature {
+  display: flex;
+  justify-content: flex-end;
+}
+.quoteboxbackground {
+  display: flex;
+  border: 1px;
+  min-width: 100%;
+  background-color: #E5E7EB;
+  justify-content: center;
+}
+
+.containerquote {
+  display: flex;
+  min-height: 400px;
+  border: 1px;
+}
+
+.calltobox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.callcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  max-height: 100px;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+  width: 700px;
+}
+
+.calltext {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  color: white;
+}
+
+.smallheader {
+  font: bold;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+.footer {
+  display: flex;
+  background-color: #1F2937;
+  height: 60px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.footertext {
+  color: white;
+}
