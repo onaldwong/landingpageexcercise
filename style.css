@@ -37,7 +37,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
 }
 
 a {
@@ -51,15 +50,15 @@ a {
     display: flex;
     justify-content: center;
     padding-bottom: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
   }
 
   .headerbottom {
     display: flex;
-    justify-content: center;
-    min-width: 800px;
-
+    justify-content: space-around;
+    min-width: 1000px;
   }
   .contentno1,
   .contentno1image {
@@ -89,13 +88,23 @@ a {
     color: #F9FAF8;
   }
 
-  button {
+  .calltobutton {
     width: 150px;
     height: 40px;
     background-color: #3882F6;
     border-radius: 10px;
     font-size: 20px;
     color: white;
+  }
+
+  .youtubebutton {
+    width: 150px;
+    height: 70px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
   }
 
 
@@ -119,27 +128,38 @@ a {
 
   .informationboxes {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .boxes {
     display: flex;
     flex-direction: column;
     min-height: 300px;
+    align-items: center;
   }
   
   .imagebox {
     display: flex;
-    border: 2px solid blue;
     border-radius: 5px;
-    height: 200px;
+    height: 300px;
     width: 200px;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
+
+img {
+  border-radius: 5px;
+}
 
   .text {
     text-align: center;
-  }
+    width: 250px;
+    font-size: 18px;
+}
 
 .quotecon {
     display: flex;
@@ -170,11 +190,14 @@ a {
   min-width: 100%;
   background-color: #E5E7EB;
   justify-content: center;
+  margin-top: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .containerquote {
   display: flex;
-  min-height: 400px;
+  min-height: 600px;
   border: 1px;
 }
 
@@ -203,13 +226,26 @@ a {
   flex-direction: column;
   width: 300px;
   color: white;
+  font-size: 18px;
 }
 
 .smallheader {
   font: bold;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
+  padding-bottom: 5px;
 }
+
+.inputtext {
+  color: white;
+  font-size: 18px;
+}
+
+.send {
+  font-size: 18px;
+}
+
+
 
 
 
@@ -217,6 +253,7 @@ a {
   display: flex;
   background-color: #1F2937;
   height: 60px;
+  min-width: 100%;
   color: white;
   justify-content: center;
   align-items: center;
@@ -225,3 +262,4 @@ a {
 .footertext {
   color: white;
 }
+
