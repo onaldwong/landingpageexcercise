@@ -153,6 +153,9 @@ a {
 
 img {
   border-radius: 5px;
+  contain: content;
+  max-height: 300px;
+  max-width: 250px;
 }
 
   .text {
